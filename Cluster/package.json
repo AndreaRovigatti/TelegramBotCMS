@@ -1,0 +1,14 @@
+{
+  "name": "clustercms",
+  "version": "1.0.0",
+  "description": "Cluster per CMS",
+  "main": "cluster.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "http-proxy": "^1.17.0"
+  }
+}

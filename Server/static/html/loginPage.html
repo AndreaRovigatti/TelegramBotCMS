@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Login</title>
+</head>
+
+<body>
+    <style>
+        /* Full-width inputs */
+
+        input[type=text],
+        input[type=password] {
+            padding: 1em 1em;
+            margin: 1em auto;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+            width: 30em;
+        }
+
+        /* Set a style for all buttons */
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 1em;
+            margin: 1em auto;
+            border: none;
+            cursor: pointer;
+            width: 30em;
+        }
+
+        /* Add a hover effect for buttons */
+
+        button:hover {
+            opacity: 0.8;
+        }
+
+
+        /* Add padding to containers */
+
+        .container {
+            margin: 0 auto;
+            width: 30em;
+            padding: 1em;
+        }
+    </style>
+
+    <form action='/effettuaLogin' method="GET">
+        <div class="container">
+            <label for="uname">
+                <b>Username</b>
+            </label>
+            <br/>
+            <input type="text" placeholder="Username" name="username" required>
+            <br/>
+            <label for="psw">
+                <b>Password</b>
+            </label>
+            <br/>
+            <input type="password" placeholder="Password" name="psw" required>
+
+            <button type="submit">Login</button>
+        </div>
+    </form>
+
+</body>
+
+</html>

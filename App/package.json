@@ -1,0 +1,32 @@
+{
+  "name": "cms_bot_telegram",
+  "version": "1.0.0",
+  "description": "Telegram Bot Cms",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cms",
+    "telegram",
+    "bot"
+  ],
+  "author": "Andrea Rovigatti",
+  "license": "ISC",
+  "devDependencies": {
+    "browserify": "^16.2.0",
+    "gulp": "^3.9.1",
+    "reactify": "^1.1.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "@types/jquery": "^3.3.1",
+    "dotenv": "^5.0.1",
+    "jquery": "^3.3.1",
+    "react": "^15.6.1",
+    "react-beforeunload": "^1.0.4",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^15.6.1",
+    "react-loading-animation": "^1.4.0"
+  }
+}
